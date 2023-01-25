@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<html> 
+    <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+        <title>STG</title>
+    </head>
+    <body>
+    
+        <h1>Skate Trick Generator</h1>
+        <p>Use Button to Practice Skate trick</p>
+    </body>
+    <div id="container">
+        <button id="btn"><img src="ssw.png.png" class="spinhov">
+        </button>
+        <div id="output">press the button for new trick</div>
+        
+
+    </div>
+    <script src="main.js"> </script>
+    <style>
+    @keyframes spinning {
+        from { transform: rotate(0deg) }
+        to { transform: rotate(360deg) }
+      }
+      .spinhov:hover {
+        animation-name: spinning;
+        animation-duration: 1.75s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in-out;</style> 
+</html>

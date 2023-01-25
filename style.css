@@ -1,0 +1,45 @@
+body {
+    background-color: #fcf6f5ff;
+    text-align: center;
+}
+
+
+#container {
+     text-align: center;
+
+}
+
+
+#btn {
+    
+    margin: 50px auto;
+    border: transparent;
+    background-color: transparent;
+    font-size: 22px;
+    
+    transition: 0.4s;
+    transform-style: preserve-3d;
+    perspective: 800px;
+    
+    
+}
+
+#output {
+    margin: 25px auto;
+    font-size: 26px;
+    color: rgb(34, 32, 32);
+}
+
+h1{
+    font-family: cursive;
+}
+
+p{
+    font-family: cursive;
+}
+
+#btn:hover {
+    
+
+    
+}
