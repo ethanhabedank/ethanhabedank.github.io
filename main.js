@@ -21,6 +21,15 @@ let quotes = [
 'fakie heelflip',
 'fakie ollie',
 'fakie big spin',
+'fakie inward heel',
+'fakie tre',
+'bs flip',
+'fakie bs heel',
+'big spin',
+'full cab',
+'fakie fs flip',
+'half cab flip',
+
 
 ];
 
