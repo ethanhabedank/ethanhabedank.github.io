@@ -1,32 +1,42 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
-<html> 
-    <head>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&family=Kanit:wght@700&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-        <title>STG</title>
-    </head>
-    <body>
-    
-        <h1>Skate Trick Generator</h1>
-        <p>Use Button to Practice Skate trick</p>
-    </body>
-    <div id="container">
-        <button id="btn"><img src="ssw.png.png" class="spinhov">
-        </button>
-        <div id="output">press the button for new trick</div>
-        
+    <title>Personal Finance</title>
+</head>
+<body>
+    <script src="my.js"></script>
+
+<div class="container1">
+    <div class="container2">
+    <h3 class="ps">Personal Spending</h3>
+     <input type="number" id="text1" placeholder="enter paycheck amount">
+        <input type="number" id="text2" placeholder="enter personal spending percent *example .25, .70, .50*">
+             
+   <h3 class="gs">Gas Spending</h3>
+    <input type="text" id="text3" placeholder="enter what gas you use ('regular', mid-grade or premium)">
+        <input type="number" id="text4" placeholder="enter how many miles driven">
+            <input type="number" id="text5" placeholder="enter gas mileage">
+                
+   <h3 class="mi">Monthly Insurance</h3>
+    <input type="text" id="text6" placeholder="enter monthly insurance">
+        <input class="btn3" type="button" value="submit" onclick="monthlyInsurance();personalSpending();gasSpending();savingsLeft()">
 
     </div>
-    <script src="main.js"> </script>
-    <style>
-    @keyframes spinning {
-        from { transform: rotate(0deg) }
-        to { transform: rotate(360deg) }
-      }
-      .spinhov:hover {
-        animation-name: spinning;
-        animation-duration: 1.75s;
-        animation-iteration-count: 1;
-        animation-timing-function: ease-in-out;</style> 
+      <div class="container3">
+        <div id="calculatedPS">,<p></p></div> 
+            <div id="calculatedGS"><p></p></div>
+                <div id="calculatedMIS"><p></p></div>
+                    <div id="calculatedSavings"><p></p></div>
+      </div>
+
+</div>
+</body>
 </html>
